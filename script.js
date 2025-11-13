@@ -11,6 +11,7 @@ function makeid(l) {
 }
 
 // Make function available globally if needed
-window.makeid = makeid;Do not change the code below.
+window.makeid = makeid;
+// Do not change the code below.
 const l = prompt("Enter a number.");
 alert(makeid(l));
